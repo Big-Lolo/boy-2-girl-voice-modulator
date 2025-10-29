@@ -4,8 +4,8 @@ from IOAudioLayer import IOAudioLayer
 from ResearchLayer import ResearchLayer
 
 def main():
-    audio_layer = IOAudioLayer(samplerate=48000, blocksize=1024)
-    research_layer = ResearchLayer(samplerate=48000)
+    audio_layer = IOAudioLayer(samplerate=48000, blocksize=3572)
+    research_layer = ResearchLayer(samplerate=48000, frame_length_ms=80)
 
     print("Iniciando stream (Ctrl+C para parar)...")
     audio_layer.start()
@@ -16,7 +16,7 @@ def main():
             if in_block is None:
                 continue
 
-            out_block = research_layer.anayze_and_synthesize(in_block)
+            out_block = research_layer.analyze_and_synthesize(in_block)
 
             audio_layer.send_output_block(out_block)
 

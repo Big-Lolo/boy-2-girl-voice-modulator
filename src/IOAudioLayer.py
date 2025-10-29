@@ -27,7 +27,7 @@ class IOAudioLayer:
             pass
 
         try:
-            outdata[:] = self.output_queue.get_nowait()
+            outdata[:] = self.output_queue.get_nowait().reshape(-1, 1)
         except queue.Empty:
             outdata[:] = np.zeros_like(indata)
 
