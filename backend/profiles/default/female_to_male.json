@@ -1,0 +1,10 @@
+{
+  "name": "Female to Male",
+  "pitch_shift": -6.0,
+  "formant_shift": 1.15,
+  "resonance": 25.0,
+  "brightness": -2.0,
+  "timbre_shift": 1.1,
+  "gender_strength": 70.0,
+  "breath_noise": 10.0
+}

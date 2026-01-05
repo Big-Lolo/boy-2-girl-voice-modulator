@@ -1,0 +1,10 @@
+{
+  "name": "Neutral Robot",
+  "pitch_shift": 0.0,
+  "formant_shift": 1.0,
+  "resonance": 0.0,
+  "brightness": 0.0,
+  "timbre_shift": 1.0,
+  "gender_strength": 0.0,
+  "breath_noise": 0.0
+}

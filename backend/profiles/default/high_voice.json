@@ -1,0 +1,10 @@
+{
+  "name": "High Voice",
+  "pitch_shift": 8.0,
+  "formant_shift": 0.8,
+  "resonance": 35.0,
+  "brightness": 3.0,
+  "timbre_shift": 0.85,
+  "gender_strength": 80.0,
+  "breath_noise": 20.0
+}

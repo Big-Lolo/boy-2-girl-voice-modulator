@@ -1,0 +1,10 @@
+{
+  "name": "Deep Voice",
+  "pitch_shift": -8.0,
+  "formant_shift": 1.2,
+  "resonance": 40.0,
+  "brightness": -3.0,
+  "timbre_shift": 1.15,
+  "gender_strength": 80.0,
+  "breath_noise": 5.0
+}
